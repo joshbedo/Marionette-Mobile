@@ -1,0 +1,24 @@
+.tasks {
+	.select-indicator {
+		position:absolute;
+		margin-left:-20px;
+		transition:all .5s ease;
+		left:0;
+		top:0;
+		width:22px;
+		height:22px;
+		padding:10px;
+	}
+	li {
+		transition:all .5s ease;
+	}
+
+	.showIndicators {
+		li { 
+			padding-left:30px;
+		}
+		.select-indicator {
+			margin-left:0;
+		}
+	}
+}
